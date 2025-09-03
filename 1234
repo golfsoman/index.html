@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>เว็บผี</title>
+  <style>
+    body {
+      background: black;
+      color: white;
+      text-align: center;
+      font-family: sans-serif;
+      padding: 50px;
+    }
+    h1 {
+      color: red;
+      animation: flicker 1s infinite alternate;
+    }
+    @keyframes flicker {
+      from { opacity: 1; }
+      to { opacity: 0.3; }
+    }
+  </style>
+</head>
+<body>
+  <h1>👻 ยินดีต้อนรับสู่เว็บผี</h1>
+  
+  <!-- รูป -->
+  <img src="ghost.jpg" alt="ผี" width="300"><br>
+  
+  <!-- เสียง -->
+  <audio autoplay loop>
+    <source src="sound.mp3" type="audio/mpeg">
+    เบราว์เซอร์ของคุณไม่รองรับเสียง
+  </audio>
+  
+  <p>คุณกล้ามาเจอฉันแล้วหรือ... 🔥</p>
+</body>
+</html>
